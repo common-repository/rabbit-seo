@@ -1,0 +1,99 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.rabbitWrap{
+	background: #FFF7DEEB;
+	margin-right: 15px;
+}
+.headerRabit{
+	background: #fec200;
+}
+ 
+.rabbitContainer .row{
+	min-height: 75vh;
+	display: flex;
+    flex-wrap: wrap; 
+    margin-right:-15px;
+    margin-left: -15px;
+}
+.rabbitContainer .card{
+	margin-right: 15px;
+	border-radius: 10px;
+}
+.rabbitContainer .card a{
+	font-size: 16px;
+	text-align: center;
+	display: block; 
+	background: #000000;
+	color: #ffffff; 
+	margin:10px 0px;
+	border-radius: 50px;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.rabbitContainer .card a:hover{
+	background: #fec200;
+}
+.p-3{
+	padding: 20px;
+}
+.pb-1{
+	padding-bottom: 5px;
+}
+.mb-0{
+	margin-bottom: 5px;
+}
+#keywordDataList{
+	padding:10px 16px;
+}
+#keywordDataList table{
+	border: none;
+	width: 100%;
+	
+}
+#keywordDataList table th{
+	padding: 10px;
+	background: #ffffff;
+	text-align: center;
+}
+#keywordDataList table tbody tr{ 
+	background: #ffffff;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+#keywordDataList table tbody tr:nth-child(2n){
+	background: #ffffff96;
+}
+#keywordDataList table tbody tr td{
+	padding: 10px;
+}
+.keywordDataListButton {
+	text-align: center;
+	padding: 20px;
+}
+.keywordDataListButton a{
+	background: #000000;
+	padding: 10px 20px;
+	color: #ffffff;
+	border-radius: 50px;
+	text-decoration: none;
+}
+@media (min-width: 768px) {
+    .col-md-8{
+        flex: 0 0 auto;
+        width: 66.66666667%;
+        padding-right: 15px;
+   		padding-left: 15px;
+    }
+    .col-md-4{
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        padding-right: 15px;
+    	padding-left: 15px;
+    }
+}
